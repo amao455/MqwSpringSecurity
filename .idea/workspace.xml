@@ -5,19 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81cf831-a550-41a8-9daa-7f38505561ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,46 +40,46 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\app\java\maven\apache-maven-3.8.3" />
         <option name="localRepository" value="D:\app\java\maven\repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="mavenHome" value="D:/app/java/maven/apache-maven-3.8.3" />
         <option name="userSettingsFile" value="D:\app\java\maven\apache-maven-3.8.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
   <component name="ProjectId" id="36eAUKaiknH2Jqvo8HSMJT5fO6Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.SpringSecurity1ApplicationTests.contextLoads.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SpringSecurity1Application.executor": "Run",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurity1Application">
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringSecurity_2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13154\Desktop\codes\MqwSpringSecurity\SpringSecurity_2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.controller" />
+      <recent name="com.example.springsecurity_2.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringSecurity2Application">
     <configuration name="SpringSecurity1ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringSecurity_1" />
       <extension name="coverage">
@@ -83,13 +98,20 @@
     </configuration>
     <configuration name="SpringSecurity1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringSecurity_1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmkg.springsecurity_1.SpringSecurity1Application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zmkg.springsecurity_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmkg.springsecurity_1.SpringSecurity1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringSecurity_2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity_2.SpringSecurity2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,10 +141,26 @@
       <updated>1733795250754</updated>
       <workItem from="1765356679138" duration="363000" />
       <workItem from="1765357659800" duration="1121000" />
+      <workItem from="1765372800651" duration="1600000" />
+      <workItem from="1765377215260" duration="1756000" />
+      <workItem from="1765378997562" duration="646000" />
+      <workItem from="1765380523449" duration="1972000" />
+      <workItem from="1765382522724" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
