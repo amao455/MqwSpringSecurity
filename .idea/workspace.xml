@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81cf831-a550-41a8-9daa-7f38505561ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/FastJsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/utils/WebUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity_2/src/test/java/com/example/SpringSecurity2ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/springsecurity_2/SpringSecurity2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/SpringSecurity2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurity_2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurity_2/src/test/java/com/example/springsecurity_2/SpringSecurity2ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +65,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\13154\Desktop\codes\MqwSpringSecurity\SpringSecurity_2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.controller" />
       <recent name="com.example.springsecurity_2.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurity2Application">
+  <component name="RunManager" selected="JUnit.SpringSecurity2ApplicationTests.testEncode">
     <configuration name="SpringSecurity1ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringSecurity_1" />
       <extension name="coverage">
@@ -91,6 +92,38 @@
       <option name="PACKAGE_NAME" value="com.zmkg.springsecurity_1" />
       <option name="MAIN_CLASS_NAME" value="com.zmkg.springsecurity_1.SpringSecurity1ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity2ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringSecurity_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.SpringSecurity2ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity2ApplicationTests.testEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringSecurity_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.SpringSecurity2ApplicationTests" />
+      <option name="METHOD_NAME" value="testEncode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,13 +144,15 @@
     </configuration>
     <configuration name="SpringSecurity2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringSecurity_2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity_2.SpringSecurity2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringSecurity2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringSecurity2ApplicationTests.testEncode" />
+        <item itemvalue="JUnit.SpringSecurity2ApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.SpringSecurity1Application" />
         <item itemvalue="JUnit.SpringSecurity1ApplicationTests.contextLoads" />
       </list>
@@ -146,11 +181,24 @@
       <workItem from="1765378997562" duration="646000" />
       <workItem from="1765380523449" duration="1972000" />
       <workItem from="1765382522724" duration="263000" />
+      <workItem from="1765468319665" duration="3095000" />
     </task>
+    <task id="LOCAL-00001" summary="12-11：完整代码上传">
+      <created>1765468454534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765468454534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12-11：完整代码上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-11：完整代码上传" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,6 +207,11 @@
           <url>file://$PROJECT_DIR$/SpringSecurity_1/src/main/java/com/zmkg/springsecurity_1/SpringSecurity1Application.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringSecurity_2/src/main/java/com/example/service/impl/UserDetailsServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

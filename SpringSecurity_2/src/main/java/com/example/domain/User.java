@@ -2,6 +2,7 @@ package com.example.domain;
 
 
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,8 +12,10 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
+@TableName(value = "sys_user")
 public class User {
+
+    private static final long serialVersionUID = 1L;
     //主键
     private Long id;
     //用户名
